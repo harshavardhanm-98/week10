@@ -1,9 +1,11 @@
 #include <stdio.h>
+
 int main() {
     int arr[] = {10, 20, 30};
-    int *ptr = arr; 
-     printf("Address at ptr: %p, Value: %d\n", (void*)ptr, *ptr);
-    ptr++; 
-    printf("Address after ptr++: %p, Value: %d\n", (void*)ptr, *ptr);
+    int *ptr = arr;
+    printf("Address at ptr: %p, Value: %d\n", ptr, *ptr);
+    ptr++;
+    printf("Address after ptr++: %p, Value: %d\n", ptr, *ptr);
+    printf("\nREG NO:25331A05I5");
     return 0;
 }
